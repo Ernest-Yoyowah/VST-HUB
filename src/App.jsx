@@ -5,9 +5,9 @@ import Hero from "./Components/Hero/Hero";
 
 const App = () => {
   const heroData = [
-    { text1: "Immerse yourself in", text2: "musical creativity" },
-    { text1: "Explore", text2: "your sonic passion" },
-    { text1: "Surrender to", text2: "the art of sound" },
+    { text1: "Latest free plugins", text2: "" },
+    { text1: "The definitive hub ", text2: "" },
+    { text1: "Full piano libraries", text2: "" },
   ];
 
   const [heroCount, setHeroCount] = useState(0);
