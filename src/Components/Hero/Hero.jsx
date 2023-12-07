@@ -2,16 +2,8 @@ import React from "react";
 import "./Hero.css";
 
 import arrow_btn from "../../assets/arrow_btn.png";
-import play_icon from "../../assets/play_icon.png";
-import pause_icon from "../../assets/pause_icon.png";
 
-const Hero = ({
-  heroData,
-  setHeroCount,
-  heroCount,
-  setPlayStatus,
-  playStatus,
-}) => {
+const Hero = ({ heroData, setHeroCount, heroCount }) => {
   return (
     <div className="hero">
       <div className="hero_text">
@@ -20,7 +12,7 @@ const Hero = ({
       </div>
 
       <div className="hero_explore">
-        <p>Explore the features</p>
+        <p>Latest PlugIns</p>
         <img src={arrow_btn} alt="next" />
       </div>
 
@@ -39,15 +31,6 @@ const Hero = ({
             className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}
           ></li>
         </ul>
-
-        <div className="hero_play">
-          <img
-            onClick={() => setPlayStatus(!playStatus)}
-            src={playStatus ? pause_icon : play_icon}
-            alt="play btn"
-          />
-          <p>See the Video</p>
-        </div>
       </div>
     </div>
   );
