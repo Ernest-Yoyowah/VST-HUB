@@ -40,6 +40,15 @@ const Hero = ({
           ></li>
         </ul>
       </div>
+
+      <div className="hero_play">
+        <img
+          onClick={() => setPlayStatus(!playStatus)}
+          src={playStatus ? pause_icon : play_icon}
+          alt="play btn"
+        />
+        <p>See the Video</p>
+      </div>
     </div>
   );
 };
