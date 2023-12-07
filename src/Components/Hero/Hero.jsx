@@ -24,7 +24,7 @@ const Hero = ({
         <img src={arrow_btn} alt="next" />
       </div>
 
-      <div className="hero_play">
+      <div className="hero-dot_play">
         <ul className="hero_dots">
           <li
             onClick={() => setHeroCount(0)}
@@ -39,15 +39,15 @@ const Hero = ({
             className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}
           ></li>
         </ul>
-      </div>
 
-      <div className="hero_play">
-        <img
-          onClick={() => setPlayStatus(!playStatus)}
-          src={playStatus ? pause_icon : play_icon}
-          alt="play btn"
-        />
-        <p>See the Video</p>
+        <div className="hero_play">
+          <img
+            onClick={() => setPlayStatus(!playStatus)}
+            src={playStatus ? pause_icon : play_icon}
+            alt="play btn"
+          />
+          <p>See the Video</p>
+        </div>
       </div>
     </div>
   );
