@@ -1,5 +1,6 @@
-import React from "react";
-import { Background } from "./Components/Background/Background";
+import React, { useState } from "react";
+import Background from "./Components/Background/Background";
+import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   const heroData = [
@@ -8,13 +9,15 @@ const App = () => {
     { text1: "Surrender to", text2: "the art of sound" },
   ];
 
-  const [heroCount, setHeroCount] = useState(2);
+  const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);
 
-  return;
-  <>
-    <Background playStatus={playStatus} heroCount={heroCount} />
-  </>;
+  return (
+    <>
+      <Background playStatus={playStatus} heroCount={heroCount} />
+      <Navbar />
+    </>
+  );
 };
 
 export default App;
