@@ -4,12 +4,14 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="nav">
-      <div className="nav_logo">VST HUB</div>
+      <div className="nav_logo">
+        <a href="/">VST HUB</a>
+      </div>
       <ul className="nav_menu">
         <li>Home</li>
-        <li>Explore</li>
-        <li>About</li>
-        <li className="nav_plugins">Plugins</li>
+        <li>PlugIns</li>
+        <li>Installation Guide</li>
+        <li className="nav_plugins">Contact Us:</li>
       </ul>
     </div>
   );
