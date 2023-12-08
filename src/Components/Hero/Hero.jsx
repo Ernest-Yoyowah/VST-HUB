@@ -12,7 +12,7 @@ const Hero = ({ heroData, setHeroCount, heroCount }) => {
       </div>
 
       <div className="hero_explore">
-        <p>Latest PlugIns</p>
+        <p>Featured Plugins</p>
         <img src={arrow_btn} alt="next" />
       </div>
 
