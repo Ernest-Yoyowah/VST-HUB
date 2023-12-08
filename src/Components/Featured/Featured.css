@@ -1,0 +1,78 @@
+/* Featured.css */
+
+.text-image.theme-default.ce-3-pf.text-left.cols-3.cols-tiles.padding-20-20 {
+  background-color: #f8f8f8;
+  margin-top: 100px;
+
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row-text {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-sm-9 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.col-sm-3.text-sm-right {
+  text-align: right;
+}
+
+.btn.btn-cta {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-cta:hover {
+  background-color: #0056b3;
+}
+
+.col-sm-4.col-tile {
+  margin-bottom: 20px;
+}
+
+.col-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col-image {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.image-caption.text-left {
+  padding: 15px;
+}
+
+.image-caption.text-left h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
