@@ -1,0 +1,140 @@
+.footer {
+  background-color: #2a2c2e;
+  color: #f5f5f5;
+  padding: 40px 0;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-primary {
+  margin-bottom: 20px;
+}
+
+.footer-column-headline {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.connect-container a {
+  font-size: 21px;
+  margin-right: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.connect-container {
+  margin-top: 1px;
+}
+
+.connect-text {
+  font-size: 24px;
+  color: #f5f5f5;
+}
+
+.connect-container li {
+  display: inline-block;
+}
+
+.newsletter-container {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.headline-newsletter {
+  font-size: 22px;
+  color: #f5f5f5;
+}
+
+.newsletter-container input[type="email"] {
+  max-width: 50%;
+  height: 39px;
+  border: 0;
+  padding: 10px 5px;
+  margin-right: 10px;
+  background: #3a3e41;
+  color: red;
+}
+
+.newsletter-container input[type="submit"] {
+  padding: 8px 14px 9px 14px;
+  background-color: #515459;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 39px;
+  border-radius: 0;
+  margin-left: -1rem;
+}
+
+.newsletter-container input[type="submit"]:hover {
+  background-color: #3a3e41;
+  height: 39px;
+}
+
+.footer-secondary {
+  background-color: #222;
+  margin-top: 4rem;
+  padding: 15px 0;
+}
+
+.footer-secondary ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-secondary li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+  border-bottom: 1px solid #555;
+}
+
+.modal-header button {
+  color: #fff;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate(0, -50%);
+}
