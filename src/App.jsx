@@ -33,8 +33,8 @@ const App = () => {
         heroCount={heroCount}
         setHeroCount={setHeroCount}
       />
-      <Featured />
       <Homepage />
+      <Featured />
       <Footer />
     </>
   );
