@@ -81,61 +81,25 @@ const Footer = () => {
             </span>
             <ul className="newsletter-container">
               <li>
-                <div id="niform-6573972d514e7" className="ni-inline-container">
+                <div id="" className="">
                   <form
                     method="post"
                     name="participant"
                     className="ni-inline-form"
                     noValidate="true"
                     role="form"
-                    action="/en//?tx_niforms_niforms[action]=submit&amp;tx_niforms_niforms[controller]=ContentForm"
-                    data-ajax-action="/index.php?eID=extbase&amp;extensionName=NiForms&amp;pluginName=NiForms&amp;controllerName=ContentForm&amp;actionName=submit&amp;L=0&amp;pid=5"
-                    data-ajax-target="niform-6573972d514e7"
-                    data-media-query="d"
+                    action=""
+                    data-ajax-action=""
+                    data-ajax-target=""
+                    data-media-query=""
                   >
-                    <div>
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[__referrer][@extension]"
-                        value="NiForms"
-                      />
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[__referrer][@controller]"
-                        value="ContentForm"
-                      />
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[__referrer][@action]"
-                        value="index"
-                      />
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[__referrer][arguments]"
-                        value="YToyOntzOjM6ImtleSI7czo2OiJmb290ZXIiO3M6NjoibW9kdWxlIjtOO30=f7e13d96973ca6c204e30e48cc43cfa99e012242"
-                      />
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[__referrer][@request]"
-                        value='a:3:{s:10:"@extension";s:7:"NiForms";s:11:"@controller";s:11:"ContentForm";s:7:"@action";s:5:"index";}a004c49fc22eccbc8cf9b65290c9a8ca6836e3bf'
-                      />
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[__trustedProperties]"
-                        value='a:3:{s:11:"participant";a:3:{s:5:"email";i:1;s:13:"subscriptions";a:2:{s:2:"dj";i:1;s:8:"producer";i:1;}s:4:"form";i:1;}s:6:"submit";i:1;s:6:"module";i:1;}690972a2b83757ac4fbad7b3a34cd21c0b235bd4'
-                      />
-                    </div>
-
                     <div className="form-group">
                       <div className="input-group">
                         <input
                           data-error="This is not a valid email address."
                           placeholder="Enter email address"
-                          className="form-control email-suggest fill-email"
-                          id="niform-6573972d514e7-email"
-                          pattern="^([\w-]+(?:[\.\+][\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z])?)$"
+                          className="form-control email-suggest fill-email email-address"
                           type="email"
-                          name="tx_niforms_niforms[participant][email]"
                           required="required"
                         />
 
@@ -144,7 +108,6 @@ const Footer = () => {
                             className="btn btn-primary"
                             title="SUBSCRIBE"
                             type="submit"
-                            name="tx_niforms_niforms[submit]"
                             value="SUBSCRIBE"
                           />
                         </div>

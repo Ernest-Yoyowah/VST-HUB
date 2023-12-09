@@ -79,10 +79,10 @@ a:hover {
 .newsletter-container input[type="email"] {
   max-width: 50%;
   height: 39px;
-  border: 0;
+  border: none;
   padding: 10px 5px;
-  margin-right: 10px;
   background: #3a3e41;
+  color: antiquewhite;
 }
 
 .newsletter-container input[type="submit"] {
@@ -93,23 +93,19 @@ a:hover {
   cursor: pointer;
   height: 39px;
   border-radius: 0;
-  margin-left: -1rem;
 }
 
 .newsletter-container input[type="submit"]:hover {
-  background-color: #3a3e41;
+  background-color: #474c50;
   height: 39px;
 }
 
-.checkbox {
-  /* margin-top: 15px; */
-  /* padding: 5px 5px; */
-}
-
 .footer-secondary {
-  background-color: #222;
+  background-color: #333;
   margin-top: 4rem;
   padding: 15px 0;
+  height: 19px;
+  color: #999999;
 }
 
 .footer-secondary ul {
@@ -119,14 +115,17 @@ a:hover {
   text-align: center;
 }
 
+.footer-secondary a {
+  color: #999999;
+}
+
 .footer-secondary li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 80px;
 }
 
 .modal-content {
   background-color: #333;
-  color: #fff;
 }
 
 .modal-header,
@@ -135,7 +134,7 @@ a:hover {
 }
 
 .modal-header button {
-  color: #fff;
+  color: #999999;
 }
 
 .modal-body {
