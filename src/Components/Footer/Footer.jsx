@@ -154,48 +154,6 @@ const Footer = () => {
                       </div>
                     </div>
 
-                    <div className="">
-                      <div className="checkbox">
-                        <input
-                          type="hidden"
-                          name="tx_niforms_niforms[participant][subscriptions][dj]"
-                          value=""
-                        />
-                        <input
-                          id="checkbox-participant[subscriptions][dj]"
-                          type="checkbox"
-                          name="tx_niforms_niforms[participant][subscriptions][dj]"
-                          value="1"
-                          checked="checked"
-                        />
-                        <label htmlFor="checkbox-participant[subscriptions][dj]">
-                          DJ topics
-                        </label>
-                      </div>
-
-                      <div className="checkbox">
-                        <input
-                          type="hidden"
-                          name="tx_niforms_niforms[participant][subscriptions][producer]"
-                          value=""
-                        />
-                        <input
-                          id="checkbox-participant[subscriptions][producer]"
-                          type="checkbox"
-                          name="tx_niforms_niforms[participant][subscriptions][producer]"
-                          value="1"
-                          checked="checked"
-                        />
-                        <label htmlFor="checkbox-participant[subscriptions][producer]">
-                          Producer topics
-                        </label>
-                      </div>
-
-                      <div className="help-block with-errors">
-                        <ul className="list-unstyled"></ul>
-                      </div>
-                    </div>
-
                     <div className="form-group" style={{ marginTop: "15px" }}>
                       <input
                         type="hidden"
@@ -215,7 +173,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="column3 col-xs-3 col-md-3">
-            <span className="footer-column-headline">Company</span>
+            <span className="footer-column-headline company-text">Company</span>
             <ul>
               <li>
                 <a href="https://blog.native-instruments.com/">Blog</a>
