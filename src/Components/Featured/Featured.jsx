@@ -71,11 +71,11 @@ const Featured = () => {
         <div className="row-text">
           <div className="row">
             <div className="col-sm-9 featured-text">
-              <h2>Featured products</h2>
+              <h2>Featured Piano VSTs</h2>
             </div>
             <div className="col-sm-3 text-sm-right">
               <a className="btn btn-cta" href="">
-                See all products
+                See all PlugIns
               </a>
             </div>
           </div>

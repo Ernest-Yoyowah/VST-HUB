@@ -5,6 +5,7 @@ import Hero from "./Components/Hero/Hero";
 import Featured from "./Components/Featured/Featured";
 import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Homepage from "./Components/Homepage/Homepage";
 
 const App = () => {
   const heroData = [
@@ -33,6 +34,7 @@ const App = () => {
         setHeroCount={setHeroCount}
       />
       <Featured />
+      <Homepage />
       <Footer />
     </>
   );
