@@ -8,6 +8,7 @@
   font-size: 80px;
   font-weight: 500;
   line-height: 90px;
+  font-family: Outfit;
 }
 
 .hero_explore {
@@ -24,6 +25,7 @@
 }
 
 .hero_explore p {
+  font-family: Outfit;
   margin-top: 11px;
   color: #292929;
   font-size: 20px;
