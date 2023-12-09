@@ -121,7 +121,7 @@ a:hover {
 
 .footer-secondary li {
   display: inline-block;
-  margin-right: 80px;
+  justify-items: flex-end;
 }
 
 .modal-content {
