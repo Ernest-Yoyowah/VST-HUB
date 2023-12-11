@@ -48,13 +48,15 @@
 /* Style the featured plugins section */
 .featured-plugins {
   background-color: #fff;
-  padding: 80px 0;
+  /* text-align: center; */
+  /* padding: 80px 0; */
 }
 
 .featured-plugins h2 {
-  font-size: 2.5em;
+  font-size: 1.7em;
   margin-bottom: 30px;
-  color: #333;
+  color: #2a2c2e;
+  font-weight: 500;
 }
 
 /* Style the build rig section */
