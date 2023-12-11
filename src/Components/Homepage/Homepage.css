@@ -1,23 +1,10 @@
-/* Reset some default styles */
-body,
-h1,
-h2,
-p {
-  margin: 0;
+.homepageMain {
+  margin: 10rem;
   padding: 0;
-  box-sizing: border-box;
+  background: rebeccapurple;
 }
 
-/* Apply a basic style to the body */
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Style the hero section */
-.hero {
+.heroMain {
   background-image: url("https://www.sweetwater.com/insync/media/2019/06/062019-insync-ProductionRig.jpg");
   background-position: center;
   background-size: cover;
@@ -26,13 +13,13 @@ body {
   padding: 100px 0;
 }
 
-.hero h1 {
+.heroMain h1 {
   font-size: 3em;
   margin-bottom: 20px;
   color: #fff;
 }
 
-.hero p {
+.heroMain p {
   font-size: 1.2em;
   margin-bottom: 30px;
   color: #eee;

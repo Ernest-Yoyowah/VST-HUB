@@ -4,9 +4,9 @@ import { Carousel } from "react-bootstrap"; // Import Carousel component
 
 const Homepage = () => {
   return (
-    <div className="homepage">
-      <section className="hero">
-        <div className="container">
+    <div className="homepageMain">
+      <section className="heroMain">
+        <div className="container mCon">
           <h1>Your Ultimate Piano Rig</h1>
           <p>
             Unlock the full potential of your music with the best piano plugins
