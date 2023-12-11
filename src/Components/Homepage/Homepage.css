@@ -4,7 +4,7 @@
 }
 
 .heroMain {
-  margin-top: 5rem;
+  margin-top: 4rem;
   background-image: url("https://images.unsplash.com/photo-1518972559570-7cc1309f3229?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-size: cover;
@@ -105,4 +105,27 @@
   color: #333;
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* Style the about-keyboard-rig section */
+.about-keyboard-rig {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+  margin-top: 4rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-keyboard-rig h2 {
+  font-size: 1.7em;
+  margin-bottom: 30px;
+  color: #2a2c2e;
+  font-weight: 500;
+}
+
+.about-keyboard-rig p {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
