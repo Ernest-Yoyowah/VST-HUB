@@ -13,6 +13,11 @@
   padding: 100px 0;
 }
 
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
 .heroMain h1 {
   font-size: 3em;
   margin-bottom: 20px;
