@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul className="nav_menu">
         <li>Home</li>
         <li>PlugIns</li>
-        <li>Installation Guide</li>
+        <li>Keys Rig</li>
         <li className="nav_plugins">Contact Us:</li>
       </ul>
     </div>

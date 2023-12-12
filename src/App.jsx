@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
@@ -26,7 +28,13 @@ const App = () => {
 
   return (
     <>
-      <Background heroCount={heroCount} />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Background heroCount={heroCount} />} />
+          <Route path="/home" element={<Background heroCount={heroCount} />} />
+        </Routes>
+      </BrowserRouter>
+
       <Navbar />
       <Hero
         heroData={heroData[heroCount]}
