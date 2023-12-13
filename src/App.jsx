@@ -23,18 +23,13 @@ const App = () => {
       setHeroCount((count) => {
         return count === 2 ? 0 : count + 1;
       });
-    }, 3000);
+    }, 6000);
   }, []);
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Background heroCount={heroCount} />} />
-          <Route path="/home" element={<Background heroCount={heroCount} />} />
-        </Routes>
-      </BrowserRouter>
-
+      <Background heroCount={heroCount} />
+      <Background heroCount={heroCount} />
       <Navbar />
       <Hero
         heroData={heroData[heroCount]}
