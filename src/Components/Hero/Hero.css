@@ -26,10 +26,11 @@
 
 .hero_explore p {
   font-family: Outfit;
-  padding: 10px 15px 0;
+  padding: 12px 15px 0;
   color: #292929;
   font-size: 20px;
   font-weight: 500;
+  margin-left: -15px;
 }
 
 .hero-dot_play {
