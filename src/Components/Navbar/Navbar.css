@@ -8,7 +8,7 @@
 }
 
 .nav__item a {
-  color: black;
+  color: #231955;
   font-weight: 500;
   font-size: 15.5px;
 }
@@ -16,7 +16,7 @@
 .nav__brand {
   text-transform: uppercase;
   font-size: 1.8rem;
-  color: rgb(23, 22, 22);
+  color: #05273a;
   padding: 0 10rem 0;
   font-weight: 600;
 }
