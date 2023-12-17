@@ -1,20 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
+function Navbar() {
+  const [active, setActive] = useState("nav__menu");
+  const [icon, setIcon] = useState("nav__toggler");
+
+  const navToggle = () => {
+    if (active === "nav__menu") {
+      setActive("nav__menu nav__active");
+    } else setActive("nav__menu");
+
+    // Icon Toggler
+    if (icon === "nav__toggler") {
+      setIcon("nav__toggler toggle");
+    } else setIcon("nav__toggler");
+  };
+
+  const closeMenu = () => {
+    setActive("nav__menu");
+    setIcon("nav__toggler");
+  };
+
   return (
-    <div className="nav">
-      <div className="nav_logo">
-        <a href="/">VST HUB</a>
+    <nav className="nav">
+      <a href="/" className="nav__brand">
+        VST HUB
+      </a>
+      <div onClick={navToggle} className={icon}>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </div>
-      <ul className="nav_menu">
-        <li>Home</li>
-        <li>PlugIns</li>
-        <li>Keys Rig</li>
-        <li className="nav_plugins">Contact Us:</li>
+      <ul className={active}>
+        <li className="nav__item">
+          <a href="#hero" className="nav__link" onClick={closeMenu}>
+            Home
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#about" className="nav__link" onClick={closeMenu}>
+            PlugIns
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#courses" className="nav__link" onClick={closeMenu}>
+            Keys Rig
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#footer" className="nav__link" onClick={closeMenu}>
+            Contact Us
+          </a>
+        </li>
       </ul>
-    </div>
+    </nav>
   );
-};
+}
 
 export default Navbar;
