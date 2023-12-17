@@ -9,7 +9,8 @@
 
 .nav__item a {
   color: black;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 15.5px;
 }
 
 .nav__brand {
