@@ -67,7 +67,7 @@ const Featured = () => {
       id="c835757"
       className="text-image theme-default ce-3-pf text-left cols-3 cols-tiles padding-20-20"
     >
-      <div className="container">
+      <div id="plugins" className="container">
         <div className="row-text">
           <div className="row">
             <div className="col-sm-9 featured-text">

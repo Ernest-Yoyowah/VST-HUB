@@ -4,7 +4,7 @@ import { Carousel } from "react-bootstrap"; // Import Carousel component
 
 const Homepage = () => {
   return (
-    <div className="homepageMain">
+    <div className="homepageMain" id="home">
       {/* Introduction Section */}
       <section className="introduction">
         <div className="container mCon">

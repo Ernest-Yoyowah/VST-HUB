@@ -33,17 +33,17 @@ function Navbar() {
       </div>
       <ul className={active}>
         <li className="nav__item">
-          <a href="#hero" className="nav__link" onClick={closeMenu}>
+          <a href="#home" className="nav__link" onClick={closeMenu}>
             Home
           </a>
         </li>
         <li className="nav__item">
-          <a href="#about" className="nav__link" onClick={closeMenu}>
+          <a href="#plugins" className="nav__link" onClick={closeMenu}>
             PlugIns
           </a>
         </li>
         <li className="nav__item">
-          <a href="#courses" className="nav__link" onClick={closeMenu}>
+          <a href="#rig" className="nav__link" onClick={closeMenu}>
             Keys Rig
           </a>
         </li>
