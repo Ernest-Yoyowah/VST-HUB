@@ -72,7 +72,7 @@
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .hero {
-    margin: 0 5px;
+    margin: 40px 5px 5px;
     margin-top: 30px;
   }
 
@@ -89,7 +89,7 @@
   }
 
   .hero_explore p {
-    padding: 4px 6px 0;
+    /* padding: 4px 6px 0; */
     font-size: 12px;
     margin-left: -6px;
   }
