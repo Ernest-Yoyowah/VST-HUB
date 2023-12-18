@@ -49,6 +49,10 @@
 
 /* Media Query for Mobile */
 @media screen and (max-width: 768px) {
+  .nav {
+    padding: 5px;
+  }
+
   .nav__toggler {
     display: block;
   }
