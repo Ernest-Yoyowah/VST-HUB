@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <a href="/" className="nav__brand">
-        VST HUB
+        V<span>s</span>T Plug<span>In</span>s
       </a>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
