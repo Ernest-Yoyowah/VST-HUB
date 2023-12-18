@@ -1,10 +1,9 @@
 import React from "react";
 import "./Homepage.css";
-import { Carousel } from "react-bootstrap"; // Import Carousel component
 
 const Homepage = () => {
   return (
-    <div className="homepageMain" id="home">
+    <div className="homepage" id="home">
       {/* Introduction Section */}
       <section className="introduction">
         <div className="container mCon">
@@ -41,7 +40,7 @@ const Homepage = () => {
             creative possibilities.
           </p>
           <p>
-            Build your keyboard rig to unlock your musical potential – whether
+            Build your keyboard rig to unlock your musical potential - whether
             performing live, recording, or practicing at home. Explore a rich
             palette of sounds and textures that elevate your music to new
             heights.
