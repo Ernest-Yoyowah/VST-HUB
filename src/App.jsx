@@ -36,7 +36,7 @@ const App = () => {
         heroCount={heroCount}
         setHeroCount={setHeroCount}
       />
-      <Homepage />
+      {/* <Homepage /> */}
       <Featured />
       <Footer />
     </>
