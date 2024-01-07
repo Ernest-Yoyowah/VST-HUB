@@ -98,7 +98,7 @@ const Footer = () => {
                         <input
                           data-error="This is not a valid email address."
                           placeholder="Enter email address"
-                          className="form-control email-suggest fill-email email-address"
+                          className="form-control email-suggest fill-email email-address placeholder-color"
                           type="email"
                           required="required"
                         />
@@ -164,12 +164,12 @@ const Footer = () => {
       <div className="footer-secondary">
         <div className="container-fluid">
           <ul>
-            <li className="column1">© 2023 Native Instruments GmbH</li>
+            <li className="column1">© 2023 Native Instruments GmbH</li>{" "}
             <li className="column2">
               <a href="/en/company/legal-information/">Legal Information</a> |{" "}
               <a href="/en/company/legal-information/privacy-policy/">
                 Privacy Policy
-              </a>
+              </a>{" "}
               <span data-cookie-consent-toggle="" className="hide">
                 | <a href="#">Manage Cookies</a>
               </span>{" "}
